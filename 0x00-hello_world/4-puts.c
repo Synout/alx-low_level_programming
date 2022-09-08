@@ -2,10 +2,8 @@
 
 /**
  * main entry point
- * @main : entry point
- * 
- * "A function that prints a predefined text using puts"
- *
+ * Description: "A function that prints a predefined text using puts"
+ * @MyInput: the variable that stores the desired text 
  * Return: Always 0 (no errors)
  */
 
