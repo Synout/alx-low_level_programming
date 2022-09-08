@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * main entry point
  * Description: "A function that prints a predefined text using puts"
- * @MyInput: the variable that stores the desired text 
  * Return: Always 0 (no errors)
  */
 
