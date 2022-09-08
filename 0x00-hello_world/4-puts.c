@@ -2,8 +2,9 @@
 
 /**
  * main entry point
- * @main : a function that prints a text using puts
- * Description: "A function that prints a predefined text using puts"
+ * @main : entry point
+ * 
+ * "A function that prints a predefined text using puts"
  *
  * Return: Always 0 (no errors)
  */
