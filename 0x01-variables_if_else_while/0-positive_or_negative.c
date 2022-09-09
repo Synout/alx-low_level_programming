@@ -8,38 +8,29 @@
 
 /* betty style doc for function main goes there */
 
-/*
- * main entry function
- * Description - randomly generates two numbers, get their avg and print it
- * Returns: 0 (no errors)
+/**
+ * main - Entry point function
+ * Description - Randomly generates two numbers, get their avg and print it
+ * Return: 0 (no errors)
  */
 
 int main(void)
-  
 {
-  
-  int n;
-  
-
-  
-  srand(time(0));
-  
-  n = rand() - RAND_MAX / 2;
-  
-  /* your code goes there */
-  if (n>0)
-  {
-    printf ("%d is positive\n",n);
-  }
-  else if (n<0)
-  {
-    printf ("%d is negative\n",n);
-  }
-  else
-  {
-    printf ("%d is zero\n",n);
-  }
-
-  return (0);
-  
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
+if (n > 0)
+{
+printf("%d is positive\n", n);
+}
+else if (n < 0)
+{
+printf("%d is negative\n", n);
+}
+else
+{
+printf("%d is zero\n", n);
+}
+return (0);
 }
