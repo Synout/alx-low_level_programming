@@ -1,0 +1,29 @@
+#include <stdlib.h>
+
+#include <time.h>
+
+/* more headers goes there */
+#include <stdio.h>
+
+
+/* betty style doc for function main goes there */
+
+/**
+ * main - Entry point function
+ * Description - prints 'abcdfghijklmnoprstuvwxyz'
+ * Return: 0 (no errors)
+ */
+
+int main(void)
+{
+/* your code goes there */
+int i = 0;
+int j = 24;
+char MyArray[j] = "abcdfghijklmnoprstuvwxyz";
+for (; i < j; i++)
+{
+putchar (MyArray[i]);
+}
+putchar ('\n');
+return (0);
+}
