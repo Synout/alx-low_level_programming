@@ -18,7 +18,7 @@ int main(void)
 {
 /* your code goes there */
 int i = 0;
-char MyArray[28] = "abcdefghijklmnopqrstuvwxyz";
+char MyArray[26] = "abcdefghijklmnopqrstuvwxyz";
 for (; i < 28; i++)
 {
 putchar (MyArray[i]);
