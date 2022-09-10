@@ -19,7 +19,7 @@ int main(void)
 /* your code goes there */
 int i = 25;
 char MyArray[26] = "abcdefghijklmnopqrstuvwxyz";
-for (; i > 0; i--)
+for (; i >= 0; i--)
 {
 putchar (MyArray[i]);
 }
