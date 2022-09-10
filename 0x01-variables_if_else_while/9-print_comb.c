@@ -18,10 +18,14 @@ int main(void)
 {
 /* your code goes there */
 int i = 0;
-char MyArray[28] = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9";
-for (; i < 28; i++)
+for (; i < 10; i++)
 {
-putchar (MyArray[i]);
+putchar ((i % 10) + '0');
+if (i != 9)
+{
+putchar (',');
+putchar (' ');
+}
 }
 putchar ('\n');
 return (0);
