@@ -8,7 +8,7 @@
 /* betty style doc for function main goes there */
 
 /**
- * print_alphabet - print alphabet function
+ * print_alphabet_x10 - print alphabet function
  * Description - prints the alphabet 10 times
  * Return: nothing (void)
  */
