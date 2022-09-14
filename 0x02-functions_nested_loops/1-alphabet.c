@@ -8,7 +8,7 @@
 /* betty style doc for function main goes there */
 
 /**
- * main - Entry point function
+ * print_alphabet - print alphabet function
  * Description - prints the alphabet using putchar and for loop
  * Return: nothing (void)
  */
