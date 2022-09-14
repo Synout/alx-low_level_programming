@@ -10,7 +10,7 @@
 
 /**
  * main - Entry point function
- * Description - prints 'abcdefghijklmnopqrstuvwxyz'
+ * Description - prints the alphabet using putchar and for loop
  * Return: 0 (no errors)
  */
 
@@ -18,7 +18,7 @@ int main(void)
 {
 /* your code goes there */
 int i = 0;
-char MyArray[26] = "abcdefghijklmnopqrstuvwxyz";
+char *MyArray = "abcdefghijklmnopqrstuvwxyz";
 for (; i < 26; i++)
 {
 putchar (MyArray[i]);
