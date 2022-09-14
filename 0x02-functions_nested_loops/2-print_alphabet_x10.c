@@ -13,7 +13,7 @@
  * Return: nothing (void)
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 /* your code goes there */
 int n = 0;
