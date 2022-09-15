@@ -2,6 +2,8 @@
 
 /**
 * main - causes an infinite loop
+* Description: Avoids infinite loop by commenting
+* @\\o/\n": Metal hand
 * Return: 0
 */
 
@@ -13,11 +15,12 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 
-//while (i < 10)
-//{
-//putchar(i);      
-//}
-
+/**
+*while (i < 10)
+*{
+*putchar(i);
+*}
+*/
 printf("Infinite loop avoided! \\o/\n");
 
 return (0);
