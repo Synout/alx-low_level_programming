@@ -15,18 +15,23 @@ for (; i <= 100; i++)
 {
 if (i % 3 == 0)
 {
-printf("Fizz ");
+printf("Fizz");
 }
 if (i % 5 == 0)
 {
-printf("Buzz ");
+printf("Buzz");
 }
 if (i % 3 && i % 5)
 {
-printf("%d ", i);
+printf("%d", i);
+}
+if (i != 100)
+{
+printf(" ");
 }
 }
 }
+
 int main(void)
 {
 fizz_buzz();
