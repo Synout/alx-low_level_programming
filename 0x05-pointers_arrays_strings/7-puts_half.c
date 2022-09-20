@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;276;0c
 /**
 * puts_half - function that returns multiples of 2
 * @str: string to iterate over
@@ -26,7 +26,7 @@ else
 n = i / 2;
 }
 
-j = n;
+j = n + 1;
 for (; j >= n && j < i; j++)
 {
 _putchar(str[j]);
