@@ -22,7 +22,7 @@ for (; j < n && j < i; j++)
 {
 printf("%d", a[j]);
 
-if ( j + 1 != n)
+if (j + 1 != n)
 {
 printf(", ");
 }
