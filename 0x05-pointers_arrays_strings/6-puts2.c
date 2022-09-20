@@ -2,7 +2,7 @@
 
 /**
 * puts2 - function that returns multiples of 2
-* @str: 
+* @str: string to iterate over
 * Return: int
 */
 
