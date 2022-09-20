@@ -1,5 +1,5 @@
 #include "main.h"
-0;276;0c
+
 /**
 * puts_half - function that returns multiples of 2
 * @str: string to iterate over
