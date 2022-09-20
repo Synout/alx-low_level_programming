@@ -12,7 +12,7 @@ int i;
 int j = 0;
 char const *b = &*s;
 char *a = s;
-char tmp[20];
+char tmp[999];
 
 for (i = 0; s[i];)
 {
