@@ -9,13 +9,12 @@
 void puts2(char *str)
 {
 int i = 0;
-int x = 0;
+
 for (; str[i]; i++)
 {
-x = str[i] - '0';
-if (x % 2 == 0)
+if (i % 2 == 0)
 {
-printf("%d", x);
+_putchar(str[i]);
 }
 }
 printf("\n");
