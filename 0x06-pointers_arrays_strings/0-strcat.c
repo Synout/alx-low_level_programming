@@ -23,7 +23,7 @@ i++;
 
 for (; src[k]; k++)
 {
-dest[i+k] = src[k];
+dest[i + k] = src[k];
 }
 
 return (dest);
