@@ -18,9 +18,6 @@ for (; dest[i];)
 i++;
 }
 
-dest[i] = ' ';
-i++;
-
 for (; src[k]; k++)
 {
 dest[i + k] = src[k];
