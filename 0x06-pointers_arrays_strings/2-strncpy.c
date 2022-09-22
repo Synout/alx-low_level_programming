@@ -23,6 +23,11 @@ for (; src[k] && k < n; k++)
 {
 dest[k] = src[k];
 }
-
+i = k;
+for (; i < n;)
+{
+dest[i] = '\0';
+i++;
+}
 return (dest);
 }
