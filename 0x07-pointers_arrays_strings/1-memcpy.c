@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _memcpy(char b, unsigned int n); - function that copies mem with bytes
+* _memcpy - function that copies mem with bytes
 * @dest: pointer to copy to
 * @src: bytes to copy from
 * @n : number of bytes to replace
