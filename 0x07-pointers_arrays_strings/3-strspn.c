@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strchr - function that looks for counts characts from accept
+* _strspn - function that looks for counts characts from accept
 * @s: string to search in
 * @accept: characters to count
 * Return: int
@@ -16,7 +16,7 @@ unsigned int tot = 0;
 for (; s[i];)
 {
 unsigned int k = 0;
-for (; accept[k];k++)
+for (; accept[k]; k++)
 {
 if (s[i] == accept[k])
 {
