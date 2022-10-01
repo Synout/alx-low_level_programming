@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+0;276;0c#include <stdlib.h>
 
 /**
  * main - entry point function
@@ -15,7 +15,7 @@ int multi = 1;
 
 if (argc == 1)
 {
-printf("Error");
+printf("Error\n");
 return (argc);
 }
 for (; i < argc; i++)
