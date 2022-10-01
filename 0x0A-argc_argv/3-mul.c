@@ -1,5 +1,5 @@
 #include <stdio.h>
-0;276;0c#include <stdlib.h>
+#include <stdlib.h>
 
 /**
  * main - entry point function
@@ -13,10 +13,10 @@ int main(int argc, char *argv[])
 int i = 1;
 int multi = 1;
 
-if (argc == 1)
+if (argc < 3)
 {
 printf("Error\n");
-return (argc);
+return (1);
 }
 for (; i < argc; i++)
 {
