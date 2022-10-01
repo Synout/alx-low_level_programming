@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 int i = 1;
 int multi = 1;
- 
+
 for (; i < argc; i++)
 {
 multi *= atoi(argv[i]);
