@@ -10,9 +10,9 @@
 
 char *str_concat(char *s1, char *s2)
 {
-unsigned int i, j;
+unsigned int i = 0;
+unsigned int j = 0;
 char *array;
-
 if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
@@ -25,11 +25,11 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-for (j = 0; s1[i];)
+for (; s1[i];)
 {
 i++;
 }
-for (j = 0; s2[j];)
+for (; s2[j]; j++)
 {
 j++;
 }
