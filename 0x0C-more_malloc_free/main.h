@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 char _putchar(char c);
 void *malloc_checked(unsigned int b);
