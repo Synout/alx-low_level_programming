@@ -25,7 +25,7 @@ if (n > strlen(s2))
 {
 n = strlen(s2);
 }
-size = sizeof(char)*(strlen(s1) + 1 + n) + 1;
+size = sizeof(char) * (strlen(s1) + 1 + n)+1;
 conc = malloc(size);
 
 for (i = 0; s1[i]; i++)
