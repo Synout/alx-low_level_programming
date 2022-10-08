@@ -2,9 +2,9 @@
 
 /**
  * array_range - func that makes array of certain range
- * @nmemb: first string to concat
+ * @min: min int
  *
- * @size: size of array
+ * @max: max int
  * Return: NULL if error, or pointer
  */
 
@@ -19,7 +19,7 @@ if (min >= max)
 return (NULL);
 }
 size = max - min;
- array = malloc(sizeof(int) * size);
+array = malloc(sizeof(int) * size);
 if (array == NULL)
 {
 return (NULL);
@@ -29,6 +29,5 @@ for (; i < size; i++)
 {
 array[i] = min++;
 }
-
 return (array);
 }
