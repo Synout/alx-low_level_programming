@@ -3,7 +3,7 @@
 /**
  * _calloc - func that allocates mem for an array
  * @nmemb: first string to concat
- * 
+ *
  * @size: size of array
  * Return: NULL if error, or pointer
  */
