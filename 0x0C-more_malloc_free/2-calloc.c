@@ -19,6 +19,10 @@ return (NULL);
 }
 
 array = malloc(size * nmemb);
+if (array == NULL)
+{
+return (NULL);
+}
 for (; i < (size * nmemb); i++)
 {
 array[i] = '\0';
