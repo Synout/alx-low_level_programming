@@ -1,8 +1,0 @@
-#ifndef VARIADIC_H
-#define VARIADIC_H
-
-
-char _putchar(char c);
-
-
-#endif /* VARIADIC_H */
